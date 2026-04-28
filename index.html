@@ -192,30 +192,7 @@
     </header>
 
     <section class="section">
-        <div class="card">
-            <h2 style="font-family: 'Playfair Display';">Wedding Invitation</h2>
-            <p>The Families Of</p>
-            <p><strong>Mr & Mrs Batholomew  Okpeh</strong><br>Okpoga, Okpokwu LGA, Benue State<br></p>
-            <p>&</p>
-            <p><strong>Late Mr & Mrs Okechukwu Njoku</strong><br>Umuachalu Uvuru, Aboh Mbaisa LGA, Imo State</p>
-
-            <p>Invite you to the wedding of their children</p>
-            <div class="names">Elizabeth Ochanya Okpe<br>&<br>Mathew Chibueze Njoku</div>
-
-            <p>📅 <strong>June 6th 2026 | 10:00 AM</strong></p>
-            <p>📍 Kama Kings Hotel, Living Faith Road Jikwoyi, Abuja</p>
-            
-            <hr style="margin: 20px 0; border: 0.5px solid #eee;">
-            
-            <h3 style="font-family: 'Playfair Display'; color: var(--accent);">
-                Traditional Marriage
-            </h3>
-            
-            <p>📅 <strong>June 5th 2026 | 2:00 PM</strong></p>
-            <p>📍 Roseric Hotel, New Jerusalem Street, Dagwana</p>
-            
-            <p>👔 <strong>Dress Code:</strong> Emirald green, Gold, Navy blue, White</p>
-        </div>
+        
 
         <div class="card">
             <h2 style="font-family: 'Playfair Display';">Our Moments</h2>
@@ -237,7 +214,53 @@
         </div>
 
         <div class="card" id="rsvp">
-            <h2 style="font-family: 'Playfair Display';">RSVP</h2>
+            <h2 style="font-family: 'Playfair Display';">RSVP</h2><div class="card">
+                <h2 style="font-family: 'Playfair Display';">Wedding Invitation</h2>
+            
+                <p>The Families Of</p>
+                <p><strong>Mr & Mrs Batholomew Okpeh</strong><br>
+                    Okpoga, Okpokwu LGA, Benue State</p>
+            
+                <p>&</p>
+            
+                <p><strong>Late Mr & Mrs Okechukwu Njoku</strong><br>
+                    Umuachalu Uvuru, Aboh Mbaise LGA, Imo State</p>
+            
+                <p>Invite you to the wedding of their children</p>
+            
+                <div class="names">
+                    Elizabeth Ochanya Okpe<br>&<br>Matthew Chibueze Njoku
+                </div>
+            
+                <hr style="margin: 20px 0; border: 0.5px solid #eee;">
+            
+                <!-- Traditional Marriage -->
+                <h3 style="font-family: 'Playfair Display'; color: var(--accent);">
+                    Traditional Marriage
+                </h3>
+                <p>📅 <strong>June 5th, 2026 | 2:00 PM</strong></p>
+                <p>📍 Roseric Hotel, New Jerusalem Street, Dagwana, Abuja</p>
+            
+                <hr style="margin: 20px 0; border: 0.5px solid #eee;">
+            
+                <!-- Church Wedding -->
+                <h3 style="font-family: 'Playfair Display'; color: var(--accent);">
+                    Church Wedding
+                </h3>
+                <p>📅 <strong>June 6th, 2026 | 10:00 AM</strong></p>
+                <p>📍 God Inherited Church (GIC), Behind The Lord Chosen, Dagwana, Abuja</p>
+            
+                <hr style="margin: 20px 0; border: 0.5px solid #eee;">
+            
+                <!-- Reception -->
+                <h3 style="font-family: 'Playfair Display'; color: var(--accent);">
+                    Reception
+                </h3>
+                <p>📅 <strong>June 6th, 2026 | 1:00 PM</strong></p>
+                <p>📍 Kama Kings Hotel & Events, Living Faith Road, Jikwoyi, Abuja</p>
+            
+                <p>👔 <strong>Dress Code:</strong> Emerald Green, Gold, Navy Blue, White</p>
+            </div>
             <p>Please respond by May 20th, 2026</p>
             <form id="rsvpForm">
                 <input type="text" placeholder="Your Full Name" required>
@@ -270,7 +293,7 @@
 
     <script>
         // Countdown Timer Logic
-        const weddingDate = new Date("June 6, 2026 21:00:00").getTime();
+        const weddingDate = new Date("June 6, 2026 10:00:00").getTime();
 
         const timer = setInterval(function () {
             const now = new Date().getTime();
